@@ -1,0 +1,9 @@
+App(
+    appid="python_detector",
+    name="Python Detector",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="python_detector_app",
+    requires=["gui"],
+    stack_size=1024,
+    fap_category="Tools",
+)
