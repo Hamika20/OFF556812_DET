@@ -1,0 +1,1 @@
+Hello jules can you verify the code why does it not want to use the cc1101 module bc in the serial log it wont work it doesnt even want to use fhe module and also tox the code so make it work how i wanted it 
