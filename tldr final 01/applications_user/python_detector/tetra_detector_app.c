@@ -8,6 +8,7 @@
 #include <furi_hal.h>
 #include <input/input.h>
 #include <furi_hal_light.h>
+#include <furi_hal_subghz.h>
 
 #define MIN_RSSI_DBM       -80.0f
 #define CAL_SAMPLES        10
