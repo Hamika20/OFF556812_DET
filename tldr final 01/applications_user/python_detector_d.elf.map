@@ -1,0 +1,265 @@
+Archive member included to satisfy reference by file (symbol)
+
+/mnt/d/PYHON DETECTOR CORP/FLIPPER/flipperzero-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                              build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o (__aeabi_f2d)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .data          0x00000000        0x0 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .bss           0x00000000        0x0 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .comment       0x00000000       0x1c build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .data          0x00000000        0x0 /mnt/d/PYHON DETECTOR CORP/FLIPPER/flipperzero-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /mnt/d/PYHON DETECTOR CORP/FLIPPER/flipperzero-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+LOAD /mnt/d/PYHON DETECTOR CORP/FLIPPER/flipperzero-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /mnt/d/PYHON DETECTOR CORP/FLIPPER/flipperzero-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /mnt/d/PYHON DETECTOR CORP/FLIPPER/flipperzero-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /mnt/d/PYHON DETECTOR CORP/FLIPPER/flipperzero-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libsupc++_nano.a
+
+.text           0x00000000      0xae4
+ *(.text)
+ .text          0x00000000      0x378 /mnt/d/PYHON DETECTOR CORP/FLIPPER/flipperzero-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x00000000                __aeabi_drsub
+                0x00000008                __aeabi_dsub
+                0x00000008                __subdf3
+                0x0000000c                __adddf3
+                0x0000000c                __aeabi_dadd
+                0x00000284                __aeabi_ui2d
+                0x00000284                __floatunsidf
+                0x000002a4                __floatsidf
+                0x000002a4                __aeabi_i2d
+                0x000002c8                __extendsfdf2
+                0x000002c8                __aeabi_f2d
+                0x0000030c                __aeabi_ul2d
+                0x0000030c                __floatundidf
+                0x0000031c                __floatdidf
+                0x0000031c                __aeabi_l2d
+ *(.stub)
+ *(.text*)
+ .text.render   0x00000378      0x320 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .text.input_cb
+                0x00000698      0x13c build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .text.read_rssi
+                0x000007d4       0x2c build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .text.persist  0x00000800       0x48 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .text.python_detector_app
+                0x00000848      0x29c build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+                0x00000848                python_detector_app
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.fini)
+
+.rodata         0x00000ae4      0x158
+ *(.rodata)
+ .rodata        0x00000ae4        0xc build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata.render.str1.4
+                0x00000af0       0x65 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ *fill*         0x00000b55        0x3 
+ .rodata.input_cb.str1.4
+                0x00000b58       0x41 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ *fill*         0x00000b99        0x3 
+ .rodata.python_detector_app.str1.4
+                0x00000b9c       0x11 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ *fill*         0x00000bad        0x3 
+ .rodata.str1.4
+                0x00000bb0       0x27 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ *fill*         0x00000bd7        0x1 
+ .rodata.scan_names
+                0x00000bd8        0x8 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .rodata.mode_names
+                0x00000be0       0x18 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .rodata.STATIC_FREQS
+                0x00000bf8       0x44 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+
+.data           0x00000c3c        0x5
+ *(.data)
+ *(.data1)
+ *(.data.*)
+ .data.sens     0x00000c3c        0x4 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .data.mode     0x00000c40        0x1 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+
+.bss            0x00000c44      0x354
+ *(.bss)
+ *(.bss*)
+ .bss.popup_until
+                0x00000c44        0x4 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .bss.popup     0x00000c48       0x20 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .bss.notif     0x00000c68        0x4 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .bss.baseline  0x00000c6c      0x324 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .bss.lock_start
+                0x00000f90        0x4 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .bss.locked    0x00000f94        0x1 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .bss.tdma      0x00000f95        0x1 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .bss.debug     0x00000f96        0x1 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .bss.free_scan
+                0x00000f97        0x1 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ *(.sbss)
+ *(.sbss*)
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x40 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x175f
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x175f build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+
+.debug_abbrev   0x00000000      0x37d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x37d build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+
+.debug_line     0x00000000      0xadf
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x3bd build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .debug_line.text.render
+                0x000003bd      0x2f5 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .debug_line.text.input_cb
+                0x000006b2       0xfd build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .debug_line.text.read_rssi
+                0x000007af       0x23 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .debug_line.text.persist
+                0x000007d2       0x52 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .debug_line.text.python_detector_app
+                0x00000824      0x2bb build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .debug_line_end
+                0x00000adf        0x0 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+
+.debug_frame    0x00000000       0xec
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xec build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+
+.debug_str      0x00000000      0xc88
+ *(.debug_str)
+ .debug_str     0x00000000      0xc88 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000       0xa8
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000       0xa8 /mnt/d/PYHON DETECTOR CORP/FLIPPER/flipperzero-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+
+.debug_loclists
+                0x00000000      0x590
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x590 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000       0x57
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x57 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.ARM.attributes
+                0x00000000       0x34
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x34 build/f7-firmware-D/.extapps/python_detector/tetra_detector_app.o
+ .ARM.attributes
+                0x00000034       0x22 /mnt/d/PYHON DETECTOR CORP/FLIPPER/flipperzero-firmware/toolchain/x86_64-linux/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+/DISCARD/
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+OUTPUT(build/f7-firmware-D/.extapps/python_detector_d.elf elf32-littlearm)
+LOAD linker stubs
