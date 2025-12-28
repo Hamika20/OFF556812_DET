@@ -178,6 +178,7 @@ static void render(Canvas* c, void* ctx) {
 }
 
 int32_t python_detector_app(void) {
+    furi_hal_subghz_set_path(FuriHalSubGhzPathExternal);
     Gui* gui = furi_record_open("gui");
     notif = furi_record_open("notification");
     if(!gui||!notif) return -1;
@@ -242,5 +243,6 @@ int32_t python_detector_app(void) {
     view_port_free(vp);
     furi_record_close("gui");
     furi_record_close("notification");
+    furi_hal_subghz_set_path(FuriHalSubGhzPathInternal);
     return 0;
 }
